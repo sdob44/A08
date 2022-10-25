@@ -17,7 +17,7 @@ main h1 {
 	font-size: 150%;
 }
 main h2 {
-	/*color: var(--global-color-1);*/
+	color: var(--global-color-1);
 	font-size: 100%;
 }
 main h3 {
@@ -26,19 +26,19 @@ main h3 {
 
  h2{
 	font-size: 170%;
-	color: #800000;
+	color: var(--global-color-1);
 	text-indent: 30px;
 }
 
- h3{
+ header h3{
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
 }
 
- em.shadow{
-	 text-shadow:#800000;
- }
+.shadow{
+	 text-shadow:2px 2px var(--global-color-1);
+}
 /* the styles for the footer */
 a:hover{
 	font-style: italic;
@@ -48,6 +48,6 @@ footer p{
 
 }
 
-global-color-1{
-
+:root {
+	--global-color-1: #800000
 }
