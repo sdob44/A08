@@ -40,7 +40,7 @@ main h3 {
 	 text-shadow:2px 2px var(--global-color-1);
 }
 /* the styles for the footer */
-a:hover{
+a:hover, :focus{
 	font-style: italic;
 }
 footer p{
